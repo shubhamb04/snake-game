@@ -1,0 +1,28 @@
+html,
+body {
+    margin: 1vh;
+    padding: 1vh;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid brown 2px;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: bisque;
+    /* border: solid black 1px; */
+}
+
+.snake {
+    background-color: chartreuse;
+}
+
+.apple {
+    background-color: crimson;
+}
