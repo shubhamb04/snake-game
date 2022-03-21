@@ -1,28 +1,36 @@
 html,
 body {
-    margin: 1vh;
-    padding: 1vh;
+  margin: 1vh;
+  padding: 1vh;
 }
 
 .grid {
-    display: flex;
-    flex-wrap: wrap;
-    width: 200px;
-    height: 200px;
-    border: solid brown 2px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  border: solid brown 2px;
 }
 
 .square {
-    width: 20px;
-    height: 20px;
-    background-color: bisque;
-    /* border: solid black 1px; */
+  width: 20px;
+  height: 20px;
+  background-color: bisque;
+  /* border: solid black 1px; */
 }
 
 .snake {
-    background-color: chartreuse;
+  background-image: linear-gradient(
+    to right,
+    rgb(49, 102, 49),
+    gray,
+    rgb(133, 133, 47),
+    rgb(124, 158, 124),
+    rgb(211, 211, 9),
+    rgb(49, 102, 49)
+  );
 }
 
 .apple {
-    background-color: crimson;
+  background-color: crimson;
 }
